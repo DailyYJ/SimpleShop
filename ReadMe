@@ -1,0 +1,7 @@
+JPA
+OpenJDK 13
+SpringBoot 2.3.5.RELEASE
+thymeleaf
+lombok
+h2 DB
+Junit 4
