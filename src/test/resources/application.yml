@@ -1,0 +1,24 @@
+#Test를 위한 Memory DB 생성 BUT 설정이 없으면 메모리모드가 default
+spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        generate_statistics: true
+#        #show_sql: true
+#        format_sql: true
+
+logging:
+  level:
+    #    org.hibernate: debug
+    org.hibernate.stat: debug
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+
